@@ -1,0 +1,20 @@
+[submodule "vendor-bills"]
+	path = vendor-bills
+	url = git@git.vauxoo.com:Vauxoo/vendor-bills.git
+	branch = 13.0
+[submodule "xunnel-account"]
+	path = xunnel-account
+	url = https://git.vauxoo.com/vauxoo/xunnel-account.git
+	branch = 13.0
+[submodule "mexico"]
+	path = mexico
+	url = git@git.vauxoo.com:Vauxoo/mexico.git
+	branch = 13.0
+[submodule "server-tools"]
+	path = server-tools
+	url = git@github.com:Vauxoo/server-tools.git
+	branch = 13.0
+[submodule "anuncioslumicolor"]
+	path = anuncioslumicolor
+	url = git@git.vauxoo.com:Vauxoo/anuncioslumicolor.git
+	branch = 13.0
