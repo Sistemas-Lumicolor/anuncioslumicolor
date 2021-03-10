@@ -18,3 +18,7 @@
 	path = anuncioslumicolor
 	url = git@git.vauxoo.com:Vauxoo/anuncioslumicolor.git
 	branch = 13.0
+[submodule "hr"]
+	path = hr
+	url = git@github.com:Vauxoo/hr.git
+	branch = 13.0
