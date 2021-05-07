@@ -22,3 +22,6 @@
 	path = hr
 	url = git@github.com:Vauxoo/hr.git
 	branch = 13.0
+[submodule "hr-advanced"]
+	path = hr-advanced
+	url = git@git.vauxoo.com:vauxoo/hr-advanced.git
