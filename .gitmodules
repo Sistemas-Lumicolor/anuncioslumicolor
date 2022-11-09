@@ -25,3 +25,7 @@
 [submodule "hr-advanced"]
 	path = hr-advanced
 	url = git@git.vauxoo.com:vauxoo/hr-advanced.git
+[submodule "l10n-mx-edi-40"]
+	path = l10n-mx-edi-40
+	url = git@git.vauxoo.com:vauxoo/l10n-mx-edi-40.git
+	branch = 13.0
