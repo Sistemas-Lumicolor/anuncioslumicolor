@@ -1,7 +1,3 @@
-[submodule "server-tools"]
-	path = server-tools
-	url = git@github.com:Vauxoo/server-tools.git
-	branch = 16.0
 [submodule "anuncioslumicolor"]
 	path = anuncioslumicolor
 	url = git@git.vauxoo.com:Vauxoo/anuncioslumicolor.git
@@ -25,10 +21,6 @@
 [submodule "l10n-mx-payroll"]
 	path = l10n-mx-payroll
 	url = git@git.vauxoo.com:vauxoo/l10n-mx-payroll.git
-	branch = 16.0
-[submodule "sh-tools"]
-	path = sh-tools
-	url = git@git.vauxoo.com:vauxoo/sh-tools.git
 	branch = 16.0
 [submodule "edi-document"]
 	path = edi-document
