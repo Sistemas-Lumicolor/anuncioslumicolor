@@ -1,0 +1,24 @@
+.o_report_anuncioslumicolor_sale {
+    font-family: 'Amino-Regular'!important;
+    font-size: 8pt!important;
+    // Header
+    div.address {
+        font-family: 'Amino-Alt-Medium'!important;
+        font-size: 9pt!important;
+    }
+    div[name='company_address'], div.o_background_header, div.o_boxed_header, div.o_clean_header {
+        font-family: 'Amino-Medium'!important;
+        font-size: 11pt!important;
+    }
+    div[name='moto'] {
+        font-size: 11pt!important;
+    }
+    // Article
+    div[id='informations'] strong {
+        font-family: 'Amino-Alt-Regular' !important;
+        font-size: 9pt!important;
+    }
+    table.o_main_table th, div[id='total'] {
+        font-size: 9pt!important;
+    }
+}

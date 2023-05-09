@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+    <record id="view_order_form" model="ir.ui.view">
+        <field name="name">sale.order.form.sale.inherit</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_order_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='payment_term_id']" position="after">
+                <field name="project_name" required="1" />
+            </xpath>
+            <xpath expr="//page[@name='customer_signature']" position="after">
+                <page string="Production Files">
+                    <group>
+                        <field name="mrp_attachment_omit" />
+                    </group>
+                    <field
+                        name="mrp_attachment_ids"
+                        string="Attach files here"
+                        widget="many2many_binary"
+                        attrs="{'invisible': [('mrp_attachment_omit', '=', True)]}"
+                    />
+                </page>
+            </xpath>
+            <xpath expr="//field[@name='project_name']" position="after">
+                <field
+                    name="delivery_days"
+                    attrs="{
+                        'readonly': [('state', 'in', ['sale','sent'])],
+                        'required': 1
+                    }"
+                />
+            </xpath>
+            <xpath expr="//field[@name='order_line']/tree//field[@name='product_id']" position="after">
+                <field name="image" widget='image' />
+            </xpath>
+            <xpath expr="//field[@name='order_line']/tree//field[@name='customer_lead']" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="view_quotation_tree" model="ir.ui.view">
+        <field name="name">sale.order.tree.inherit</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_quotation_tree" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='create_date']" position="after">
+                <field name="project_name" />
+            </xpath>
+       </field>
+    </record>
+
+</odoo>

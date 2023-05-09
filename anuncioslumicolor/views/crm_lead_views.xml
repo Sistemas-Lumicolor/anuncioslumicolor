@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+    <record id="view_crm_case_leads_filter" model="ir.ui.view">
+        <field name="name">crm.lead.search.lead.inherit</field>
+        <field name="model">crm.lead</field>
+        <field name="inherit_id" ref="crm.view_crm_case_leads_filter" />
+        <field name="arch" type="xml">
+            <xpath expr="//filter[@name='salesperson']" position="after">
+                <filter name="stage" string="Stage" context="{'group_by':'stage_id'}" />
+            </xpath>
+       </field>
+    </record>
+
+    <record id="crm.crm_lead_all_leads" model="ir.actions.act_window">
+        <field name="view_mode">kanban,tree,graph,pivot,calendar,form,activity</field>
+         <field name="context">{'search_default_stage': 1}</field>
+    </record>
+
+    <record id="crm.crm_lead_all_leads_view_tree" model="ir.actions.act_window.view">
+        <field name="sequence" eval="2" />
+    </record>
+
+    <record id="crm.crm_lead_all_leads_view_kanban" model="ir.actions.act_window.view">
+        <field name="sequence" eval="1" />
+    </record>
+
+</odoo>

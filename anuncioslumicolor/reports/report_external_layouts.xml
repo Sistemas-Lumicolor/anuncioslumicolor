@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <template id="external_layout" inherit_id="web.external_layout">
+        <xpath expr="//t[@t-set='o']" position="after">
+            <t t-set="is_so" t-value="bool(o and o._name == 'sale.order')" />
+        </xpath>
+    </template>
+    <template id="external_layout_striped" inherit_id="web.external_layout_striped">
+        <xpath expr="//div[contains(@t-attf-class, 'header')]" position="attributes">
+            <attribute name="t-attf-class" add="#{'o_report_anuncioslumicolor_sale' if is_so else ''}" separator=" " />
+        </xpath>
+        <xpath expr="//div[contains(@t-attf-class, 'article')]" position="attributes">
+            <attribute name="t-attf-class" add="#{'o_report_anuncioslumicolor_sale' if is_so else ''}" separator=" " />
+        </xpath>
+        <xpath expr="//div[contains(@t-attf-class, 'footer')]" position="attributes">
+            <attribute name="t-attf-class" add="#{'o_report_anuncioslumicolor_sale' if is_so else ''}" separator=" " />
+        </xpath>
+    </template>
+    <template id="external_layout_boxed" inherit_id="web.external_layout_boxed">
+        <xpath expr="//div[contains(@t-attf-class, 'header')]" position="attributes">
+            <attribute name="t-attf-class" add="#{'o_report_anuncioslumicolor_sale' if is_so else ''}" separator=" " />
+        </xpath>
+        <xpath expr="//div[contains(@t-attf-class, 'article')]" position="attributes">
+            <attribute name="t-attf-class" add="#{'o_report_anuncioslumicolor_sale' if is_so else ''}" separator=" " />
+        </xpath>
+        <xpath expr="//div[contains(@t-attf-class, 'footer')]" position="attributes">
+            <attribute name="t-attf-class" add="#{'o_report_anuncioslumicolor_sale' if is_so else ''}" separator=" " />
+        </xpath>
+    </template>
+    <template id="external_layout_bold" inherit_id="web.external_layout_bold">
+        <xpath expr="//div[contains(@t-attf-class, 'header')]" position="attributes">
+            <attribute name="t-attf-class" add="#{'o_report_anuncioslumicolor_sale' if is_so else ''}" separator=" " />
+        </xpath>
+        <xpath expr="//div[contains(@t-attf-class, 'article')]" position="attributes">
+            <attribute name="t-attf-class" add="#{'o_report_anuncioslumicolor_sale' if is_so else ''}" separator=" " />
+        </xpath>
+        <xpath expr="//div[contains(@t-attf-class, 'footer')]" position="attributes">
+            <attribute name="t-attf-class" add="#{'o_report_anuncioslumicolor_sale' if is_so else ''}" separator=" " />
+        </xpath>
+    </template>
+    <template id="external_layout_standard" inherit_id="web.external_layout_standard">
+        <xpath expr="//div[contains(@t-attf-class, 'header')]" position="attributes">
+            <attribute name="t-attf-class" add="#{'o_report_anuncioslumicolor_sale' if is_so else ''}" separator=" " />
+        </xpath>
+        <xpath expr="//div[contains(@t-attf-class, 'article')]" position="attributes">
+            <attribute name="t-attf-class" add="#{'o_report_anuncioslumicolor_sale' if is_so else ''}" separator=" " />
+        </xpath>
+        <xpath expr="//div[contains(@t-attf-class, 'footer')]" position="attributes">
+            <attribute name="t-attf-class" add="#{'o_report_anuncioslumicolor_sale' if is_so else ''}" separator=" " />
+        </xpath>
+    </template>
+</odoo>

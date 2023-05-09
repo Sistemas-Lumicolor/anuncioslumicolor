@@ -1,0 +1,30 @@
+// ------------------------------------------------------------------
+// Amino
+// ------------------------------------------------------------------
+$amino-font-path: '../fonts/Amino';
+
+@mixin amino-font($type, $weight, $style) {
+    @font-face {
+        font-family: 'Amino-#{$type}';
+        // Using the files with the format .ttf return the PDF with some of the characters
+        // (like C, O, 0 or parentheses) cutoff fot an error with wkhtmltopdf render
+        // https://github.com/wkhtmltopdf/wkhtmltopdf/issues/4583
+        src: url('#{$amino-font-path}/Amino-#{$type}.otf') format('truetype');
+        font-weight: $weight;
+        font-style: $style;
+    }
+}
+
+@mixin amino-font-pair($type, $weight) {
+    @include amino-font('#{$type}', $weight, normal);
+    @include amino-font('Alt-#{$type}', $weight, normal);
+    @include amino-font('#{$type}Italic', $weight, italic);
+}
+
+@include amino-font-pair('Thin', 100);
+@include amino-font-pair('ExtraLight', 200);
+@include amino-font-pair('Light', 300);
+@include amino-font-pair('Regular', 400);
+@include amino-font-pair('Medium', 500);
+@include amino-font-pair('Bold', 700);
+@include amino-font-pair('Black', 900);
