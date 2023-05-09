@@ -1,0 +1,296 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* anuncioslumicolor
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-03-30 18:18+0000\n"
+"PO-Revision-Date: 2023-03-30 18:18+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: anuncioslumicolor
+#: model_terms:ir.ui.view,arch_db:anuncioslumicolor.report_saleorder_document
+msgid "<strong>Delivery days:</strong>"
+msgstr "<strong>Días hábiles para entrega</strong>"
+
+#. module: anuncioslumicolor
+#: model_terms:ir.ui.view,arch_db:anuncioslumicolor.report_picking
+#: model_terms:ir.ui.view,arch_db:anuncioslumicolor.report_saleorder_document
+msgid "<strong>Items:</strong>"
+msgstr ""
+
+#. module: anuncioslumicolor
+#: model:ir.actions.act_window,name:anuncioslumicolor.action_all_contacts
+#: model:ir.ui.menu,name:anuncioslumicolor.menu_all_contacts
+msgid "All Contacts"
+msgstr "Todos los Contactos"
+
+#. module: anuncioslumicolor
+#: model:ir.ui.menu,name:anuncioslumicolor.crm_menu_sales_lumicolor
+#: model:ir.ui.menu,name:anuncioslumicolor.menu_account_customer_lumicolor
+#: model:ir.ui.menu,name:anuncioslumicolor.res_partner_menu_customer_lumicolor
+msgid "All Customers"
+msgstr "Todos los Clientes"
+
+#. module: anuncioslumicolor
+#: model:ir.actions.act_window,name:anuncioslumicolor.action_view_list_customer_statements_lumicolor
+#: model:ir.ui.menu,name:anuncioslumicolor.customer_statements_menu_lumicolor
+msgid "All Follow-up Reports"
+msgstr "Todos los Informes de Seguimiento"
+
+#. module: anuncioslumicolor
+#: model:ir.ui.menu,name:anuncioslumicolor.menu_account_supplier_lumicolor
+#: model:ir.ui.menu,name:anuncioslumicolor.menu_procurement_management_supplier_name_lumicolor
+msgid "All Vendors"
+msgstr "Todos los Proveedores"
+
+#. module: anuncioslumicolor
+#: model:res.groups,name:anuncioslumicolor.group_allow_sale_products
+msgid "Allow to sale products"
+msgstr "Permite vender productos"
+
+#. module: anuncioslumicolor
+#: model:res.groups,name:anuncioslumicolor.group_allow_see_all_contacts
+msgid "Allow to see all contacts"
+msgstr "Permitir ver todos los contactos"
+
+#. module: anuncioslumicolor
+#: model:res.groups,name:anuncioslumicolor.group_allow_send_produce
+msgid "Allow to send to produce"
+msgstr "Permite enviar a fabricar"
+
+#. module: anuncioslumicolor
+#: model:ir.module.category,name:anuncioslumicolor.module_category_anuncioslumicolor
+msgid "Anuncioslumicolor"
+msgstr ""
+
+#. module: anuncioslumicolor
+#: model_terms:ir.ui.view,arch_db:anuncioslumicolor.view_order_form
+msgid "Attach files here"
+msgstr "Adjunte archivos aquí"
+
+#. module: anuncioslumicolor
+#: model:ir.model,name:anuncioslumicolor.model_crm_stage
+msgid "CRM Stages"
+msgstr "Fases del CRM"
+
+#. module: anuncioslumicolor
+#: model:ir.model.fields,field_description:anuncioslumicolor.field_res_partner__can_produce_without_advance
+#: model:ir.model.fields,field_description:anuncioslumicolor.field_res_users__can_produce_without_advance
+msgid "Can Produce Without Advance"
+msgstr "Puede fabricar sin anticipo de pago"
+
+#. module: anuncioslumicolor
+#: model:ir.model,name:anuncioslumicolor.model_res_partner
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: anuncioslumicolor
+#: model_terms:ir.actions.act_window,help:anuncioslumicolor.action_all_contacts
+msgid "Create a contact in your address book"
+msgstr "Crear un contacto en su directorio"
+
+#. module: anuncioslumicolor
+#: model_terms:ir.actions.act_window,help:anuncioslumicolor.res_partner_action_customer_lumicolor
+msgid "Create a new customer in your address book"
+msgstr "Crear un nuevo cliente en su directorio"
+
+#. module: anuncioslumicolor
+#: model_terms:ir.actions.act_window,help:anuncioslumicolor.res_partner_action_supplier_lumicolor
+msgid "Create a new supplier in your address book"
+msgstr "Crear un nuevo proveedor en su directorio"
+
+#. module: anuncioslumicolor
+#: model:ir.actions.act_window,name:anuncioslumicolor.res_partner_action_customer_lumicolor
+msgid "Customers"
+msgstr "Clientes"
+
+#. module: anuncioslumicolor
+#: model:ir.model.fields,field_description:anuncioslumicolor.field_sale_order__delivery_days
+msgid "Delivery Days"
+msgstr "Días hábiles para entrega"
+
+#. module: anuncioslumicolor
+#: model:ir.model.fields,help:anuncioslumicolor.field_sale_order__delivery_days
+msgid "Enter the business days needed to deliver the product"
+msgstr "Ingrese los días hábiles necesarios para entregar el producto"
+
+#. module: anuncioslumicolor
+#: model:ir.model.fields,field_description:anuncioslumicolor.field_sale_order_line__image
+#: model_terms:ir.ui.view,arch_db:anuncioslumicolor.report_picking
+#: model_terms:ir.ui.view,arch_db:anuncioslumicolor.report_saleorder_document
+msgid "Image"
+msgstr "Imagen"
+
+#. module: anuncioslumicolor
+#: model:res.groups,comment:anuncioslumicolor.group_allow_sale_products
+msgid "It allows to sale products for any price"
+msgstr "Permite vender productos a cualquier precio"
+
+#. module: anuncioslumicolor
+#: model:res.groups,comment:anuncioslumicolor.group_allow_send_produce
+msgid "It allows to show button to send to produce"
+msgstr "Permite mostrar el botón para mandar a fabricar"
+
+#. module: anuncioslumicolor
+#: model:ir.model.fields,help:anuncioslumicolor.field_crm_lead__stage_type
+#: model:ir.model.fields,help:anuncioslumicolor.field_crm_stage__stage_type
+msgid ""
+"It helps to filter where you want to display the stage, by default they "
+"appear in Lead"
+msgstr ""
+"Ayuda a filtrar dónde se quiere mostrar la etapa, por defecto aparecen en "
+"Iniciativas"
+
+#. module: anuncioslumicolor
+#: model_terms:ir.ui.view,arch_db:anuncioslumicolor.report_picking
+#: model_terms:ir.ui.view,arch_db:anuncioslumicolor.report_saleorder_document
+msgid "Item"
+msgstr ""
+
+#. module: anuncioslumicolor
+#: model:ir.model,name:anuncioslumicolor.model_account_move
+msgid "Journal Entry"
+msgstr "Asiento contable"
+
+#. module: anuncioslumicolor
+#: model:ir.model.fields.selection,name:anuncioslumicolor.selection__crm_stage__stage_type__lead
+msgid "Lead"
+msgstr "Iniciativa"
+
+#. module: anuncioslumicolor
+#: model:ir.model,name:anuncioslumicolor.model_crm_lead
+msgid "Lead/Opportunity"
+msgstr "Iniciativa/Oportunidad"
+
+#. module: anuncioslumicolor
+#: model_terms:ir.actions.act_window,help:anuncioslumicolor.action_view_list_customer_statements_lumicolor
+msgid "No follow-up to send!"
+msgstr "¡Sin seguimiento para enviar!"
+
+#. module: anuncioslumicolor
+#: model_terms:ir.actions.act_window,help:anuncioslumicolor.action_all_contacts
+msgid "Odoo helps you easily track all activities related to a contact."
+msgstr ""
+"Odoo te ayuda a realizar un seguimiento fácil de todas las actividades "
+"relacionadas con un contacto."
+
+#. module: anuncioslumicolor
+#: model_terms:ir.actions.act_window,help:anuncioslumicolor.res_partner_action_customer_lumicolor
+msgid "Odoo helps you easily track all activities related to a customer."
+msgstr ""
+"Odoo te ayuda a realizar un seguimiento fácil de todas las actividades "
+"relacionadas con un cliente."
+
+#. module: anuncioslumicolor
+#: model_terms:ir.actions.act_window,help:anuncioslumicolor.res_partner_action_supplier_lumicolor
+msgid "Odoo helps you easily track all activities related to a supplier."
+msgstr ""
+"Odoo te ayuda a realizar un seguimiento fácil de todas las actividades "
+"relacionadas con un proveedor."
+
+#. module: anuncioslumicolor
+#: model:ir.model.fields,field_description:anuncioslumicolor.field_sale_order__mrp_attachment_omit
+msgid "Omit production attachments"
+msgstr "Omitir adjuntos de producción"
+
+#. module: anuncioslumicolor
+#: model:ir.model.fields.selection,name:anuncioslumicolor.selection__crm_stage__stage_type__opportunity
+msgid "Opportunity"
+msgstr "Flujo"
+
+#. module: anuncioslumicolor
+#: model:ir.model.fields,field_description:anuncioslumicolor.field_sale_order__mrp_attachment_ids
+msgid "Production Attachment"
+msgstr "Adjuntos de Producción"
+
+#. module: anuncioslumicolor
+#: model_terms:ir.ui.view,arch_db:anuncioslumicolor.view_order_form
+msgid "Production Files"
+msgstr "Archivos de Producción"
+
+#. module: anuncioslumicolor
+#: model:ir.model,name:anuncioslumicolor.model_mrp_production
+msgid "Production Order"
+msgstr "Orden de producción"
+
+#. module: anuncioslumicolor
+#: model:ir.model.fields,field_description:anuncioslumicolor.field_mrp_production__project_name
+#: model:ir.model.fields,field_description:anuncioslumicolor.field_sale_order__project_name
+msgid "Project Name"
+msgstr "Nombre del proyecto"
+
+#. module: anuncioslumicolor
+#: model:ir.model,name:anuncioslumicolor.model_sale_order
+msgid "Sales Order"
+msgstr "Pedido de venta"
+
+#. module: anuncioslumicolor
+#: model:ir.model,name:anuncioslumicolor.model_sale_order_line
+msgid "Sales Order Line"
+msgstr "Línea de pedido de venta"
+
+#. module: anuncioslumicolor
+#: model:ir.model.fields,field_description:anuncioslumicolor.field_res_partner__user_id
+#: model:ir.model.fields,field_description:anuncioslumicolor.field_res_users__user_id
+msgid "Salesperson"
+msgstr "Comercial"
+
+#. module: anuncioslumicolor
+#: model:ir.model.fields,field_description:anuncioslumicolor.field_mrp_production__show_produce
+msgid "Show Produce"
+msgstr "Mostrar Fabricar"
+
+#. module: anuncioslumicolor
+#: model:ir.model.fields,field_description:anuncioslumicolor.field_crm_lead__stage_id
+#: model_terms:ir.ui.view,arch_db:anuncioslumicolor.view_crm_case_leads_filter
+msgid "Stage"
+msgstr "Etapa"
+
+#. module: anuncioslumicolor
+#: model:ir.model.fields,field_description:anuncioslumicolor.field_crm_lead__stage_type
+#: model:ir.model.fields,field_description:anuncioslumicolor.field_crm_stage__stage_type
+msgid "Stage Type"
+msgstr "Tipo de Etapa"
+
+#. module: anuncioslumicolor
+#: model:ir.model.fields,help:anuncioslumicolor.field_res_partner__user_id
+#: model:ir.model.fields,help:anuncioslumicolor.field_res_users__user_id
+msgid "The internal user in charge of this contact."
+msgstr "El usuario interno a cargo de este contacto."
+
+#. module: anuncioslumicolor
+#. odoo-python
+#: code:addons/anuncioslumicolor/models/sale_order_line.py:0
+#, python-format
+msgid ""
+"Unable to make the sale due to underselling the product, contact sales "
+"manager"
+msgstr ""
+"No se puede realizar la venta debido a que se vende muy por debajo del costo"
+" del producto, contacta al gerente de ventas"
+
+#. module: anuncioslumicolor
+#: model:ir.actions.act_window,name:anuncioslumicolor.res_partner_action_supplier_lumicolor
+msgid "Vendors"
+msgstr "Proveedores"
+
+#. module: anuncioslumicolor
+#. odoo-python
+#: code:addons/anuncioslumicolor/models/sale_order.py:0
+#, python-format
+msgid ""
+"You need to confirm you will skip production attachments of this orders:\n"
+"\n"
+"%s"
+msgstr ""
+"Debe confirmar que se omitirán los archivos adjuntos de estas órdenes:\n"
+"\n"
+"%s"

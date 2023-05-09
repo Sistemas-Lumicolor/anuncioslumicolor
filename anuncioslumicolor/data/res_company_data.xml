@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<odoo noupdate="1">
+
+    <record id="data_res_partner_invoice_address_anuncioslumicolor" model="res.partner">
+        <field name="type">invoice</field>
+        <field name="parent_id" ref="base.main_partner" />
+        <field name="country_id" eval="ref('base.mx')" />
+    </record>
+
+    <record id="base.main_company" model="res.company">
+        <field name="name">Anuncios Lumicolor</field>
+        <field name="logo" type="base64" file="anuncioslumicolor/static/img/logo.png" />
+        <field name="currency_id" ref="base.MXN" />
+        <field name="country_id" eval="ref('base.mx')" />
+        <field name="l10n_mx_edi_fiscal_regime">601</field>
+    </record>
+
+    <record id="max_allowed_so_line_discount" model="ir.config_parameter">
+        <field name="key">anuncioslumicolor.max_allowed_so_line_discount</field>
+        <field name="value">10</field>
+    </record>
+
+</odoo>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo noupdate="1">
+    <record id="module_category_anuncioslumicolor" model="ir.module.category">
+        <field name="name">Anuncioslumicolor</field>
+    </record>
+</odoo>

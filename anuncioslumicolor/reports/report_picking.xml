@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <template id="report_picking" inherit_id="stock.report_picking">
+
+        <xpath expr="//div[@name='div_sched_date']" position="after">
+            <div class="col-auto mw-100 mb-2">
+                <strong>Items:</strong>
+                <p class="m-0" t-out="len(o.move_ids_without_package)" />
+            </div>
+        </xpath>
+
+        <xpath expr="//th[@name='th_product']" position="before">
+            <th name="th_item" class="text-left">Item</th>
+            <th name="th_picture" class="text-left">Image</th>
+            <t t-set="current_item" t-value="0" />
+        </xpath>
+
+        <xpath expr="//span[@t-field='ml.product_id.display_name']/ancestor::td" position="before">
+            <t t-set="current_item" t-value="current_item + 1" />
+            <td>
+                <span name="td_item" t-out="current_item" />
+            </td>
+            <td>
+                <div
+                    t-if="ml.move_id.sudo().sale_line_id.image"
+                    t-out="ml.move_id.sudo().sale_line_id.image"
+                    t-options="{'widget': 'image'}"
+                />
+            </td>
+        </xpath>
+        <xpath expr="//span[@t-field='ml.product_id.display_name']/.." position="attributes">
+            <attribute name="t-if">not ml.move_id.sudo().sale_line_id.name</attribute>
+        </xpath>
+        <xpath expr="//span[@t-field='ml.product_id.display_name']/.." position="after">
+            <td t-if="ml.move_id.sudo().sale_line_id.name">
+                <span t-field="ml.move_id.sudo().sale_line_id.name" />
+            </td>
+        </xpath>
+
+    </template>
+</odoo>
