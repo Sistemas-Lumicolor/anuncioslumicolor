@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="report_delivery_document_inherit" inherit_id="stock.report_delivery_document" priority="100">
+        <xpath expr="//div/table[1]/tbody/t/t/td[1]" position="replace">
+            <td id="product_name"><span t-field="move.name"/></td>
+        </xpath>
+    </template>
+
+    <template id="report_delivery_document_inherit" inherit_id="stock.report_delivery_document" priority="100">
+        <xpath expr="//div/table[2]/tbody/t/tr/td[1]" position="replace">
+            <td id="product_name"><span t-field="bo_line.name"/></td>
+        </xpath>
+    </template>
+</odoo>

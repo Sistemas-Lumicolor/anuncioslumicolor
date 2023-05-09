@@ -7,7 +7,7 @@
     "website": "https://www.vauxoo.com",
     "license": "LGPL-3",
     "category": "Installer",
-    "version": "16.0.1.0.1",
+    "version": "16.0.1.0.2",
     "depends": [
         "account_payment",
         "board",
@@ -39,6 +39,7 @@
         "reports/report_external_layouts.xml",
         "reports/report_picking.xml",
         "reports/report_saleorder_document.xml",
+        "reports/report_delivery_document_inherit.xml",
     ],
     "demo": [
         "demo/res_partner_demo.xml",
